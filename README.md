@@ -1,7 +1,20 @@
 # douyin-product-rec
 
 一个 Codex 技能（skill）+ 本地自动化管线：把抖音店铺里的商品，自动做成「剧情动画 + 结尾商品露出」的竖屏带货短视频（768×1344，≤30s，全片 AI 生成视频）。
+<!-- 核心 AI 与生成管线 -->
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![ComfyUI](https://img.shields.io/badge/ComfyUI-000000?style=for-the-badge&logo=comfyui&logoColor=white)](https://github.com/comfyanonymous/ComfyUI)
+[![Qwen](https://img.shields.io/badge/Qwen--Image_2.1-6A0DAD?style=for-the-badge&logo=alibabacloud&logoColor=white)]()
+[![MiniMax](https://img.shields.io/badge/MiniMax_H3-FF4500?style=for-the-badge&logo=openai&logoColor=white)]()
 
+<!-- 音视频处理与平台 -->
+[![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?style=for-the-badge&logo=ffmpeg&logoColor=white)](https://ffmpeg.org/)
+[![Edge TTS](https://img.shields.io/badge/Edge--TTS-0078D7?style=for-the-badge&logo=microsoft-edge&logoColor=white)]()
+[![Douyin](https://img.shields.io/badge/Douyin-000000?style=for-the-badge&logo=tiktok&logoColor=white)](https://www.douyin.com/)
+
+<!-- 项目属性 -->
+[![Codex Skill](https://img.shields.io/badge/Codex_Skill-4B0082?style=for-the-badge&logo=github&logoColor=white)]()
+[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)]()
 ## 片子结构
 
 ```
@@ -11,6 +24,9 @@
 ```
 
 剧情段只讲故事与情绪，商品只在最后一段出现 —— 不硬广。**结尾段同样是 MiniMax H3 生成的动态视频**，不是静态商品照片。
+
+参考视频链接：[![Douyin](https://img.shields.io/badge/Douyin-000000?style=for-the-badge&logo=tiktok&logoColor=white)](https://v.douyin.com/J09UeJsGs0o/)
+
 
 ## 能做什么
 
