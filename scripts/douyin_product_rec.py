@@ -249,6 +249,7 @@ def tts(text, out_mp3, voice, rate):
 
 def build_endcard(spec, out_card, out_ov):
     from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageEnhance
+    os.makedirs(os.path.dirname(out_card) or ".", exist_ok=True)
     img = Image.open(os.path.join(ROOT, spec["product_image"])).convert("RGB")
     bg = img.copy()
     r = max(W / bg.width, H / bg.height)
@@ -480,6 +481,7 @@ def main():
     end_seconds = max(spec.get("end_seconds", 3.5), speech_end(end_vo) + 0.35)
     print(f"  结尾商品镜头({end_mode}) {end_seconds:.2f}s（推荐语发声 {speech_end(end_vo):.2f}s）")
     out_mp4 = os.path.join(ROOT, "输出", spec["output"])
+    os.makedirs(os.path.dirname(out_mp4), exist_ok=True)
     total = assemble(spec, clip_paths, vo_paths, end_mode, end_clip, card, ov_card, end_seconds, out_mp4)
     print(f"完成 {out_mp4}  时长 {total:.2f}s")
 
