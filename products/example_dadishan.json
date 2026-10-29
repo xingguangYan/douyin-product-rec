@@ -1,0 +1,47 @@
+{
+  "id": "C",
+  "name": "秋冬半高领打底衫",
+  "product_image": "输入参考图/03_打底衫.png",
+  "price": "",
+  "recommend_line": "秋冬打底，就选它",
+  "cta": "点击下方小黄车",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "voice_rate": "+8%",
+  "end_voice_rate": "+25%",
+  "end_seconds": 3.6,
+  "end_vo": "音频/C_end.mp3",
+  "end_clip": "输出/C_end2.mp4",
+  "end_seed": 2026102805,
+  "end_motion_prompt": "<Picture 1> is a product photo of a soft solid-color knit half-high collar base-layer top against a clean warm light-gray studio backdrop. Timeline 0-5s: a gentle breeze sweeps across the garment, the knit fabric ripples and flutters softly, the collar edge and fabric folds lift and drift with the airflow, the ribbed weave keeps stretching and settling as the light moves across it, soft shadows dance over the surface, the camera pushes in slowly and smoothly, premium product film look, calm elegant mood. Keep the garment's exact shape, color, collar style and knit texture exactly as in <Picture 1>. No on-screen text, no subtitles, no watermark.",
+  "output": "卖货视频_C_秋冬半高领打底衫.mp4",
+  "negative": "text, watermark, logo, subtitles, letters, cartoon, anime, illustration, 3d render, lowres, blurry, deformed hands, extra fingers",
+  "shots": [
+    {
+      "id": "s1",
+      "seed": 2026102801,
+      "keyframe": "键帧/C1.png",
+      "clip": "输出/C_s1.mp4",
+      "vo": "降温的那天，风是往骨头里钻的。",
+      "keyframe_prompt": "Photorealistic cinematic still, 9:16 vertical. Close-up of a young woman's hands pulling her thin coat collar tight around her neck against the autumn chill, standing on a city sidewalk at dusk, dry golden leaves falling around her, faint breath mist in the cold air, a warm street lamp glowing behind, only hands neck chin and coat collar visible, no face, extremely shallow depth of field, realistic skin and wool fabric texture, subtle film grain, cold lonely mood, no text",
+      "motion_prompt": "<Picture 1> shows a woman's hands gripping her coat collar on a cold autumn dusk street. Timeline 0-5s: her hands pull the collar a little tighter, her shoulders shiver once, a faint breath of mist rises and dissolves, dry golden leaves drift down through the frame, the warm street lamp glow flutters softly, the camera slowly pushes in toward her hands and collar. Keep the coat, hands, skin and lighting exactly as in <Picture 1>. No face in frame. No on-screen text, no subtitles, no watermark."
+    },
+    {
+      "id": "s2",
+      "seed": 2026102802,
+      "keyframe": "键帧/C2.png",
+      "clip": "输出/C_s2.mp4",
+      "vo": "直到它贴上皮肤，像被整个冬天拥抱。",
+      "keyframe_prompt": "Photorealistic cinematic still, 9:16 vertical. Extreme close-up of a woman's hands gently lifting and unfolding a soft dark-gray ribbed knit half-high collar top on a light wooden dresser in a warm bedroom, soft morning light from a window on the left casting gentle shadows, the fine knit weave richly detailed, only hands and forearms visible, no face, cozy warm intimate atmosphere, extremely shallow depth of field, subtle film grain, no text",
+      "motion_prompt": "<Picture 1> is an extreme close-up of hands lifting a soft dark-gray ribbed knit top on a light wooden dresser. Timeline 0-5s: her fingers spread the knit fabric open and lift it slightly, the ribbed weave stretches and settles back with a soft bounce, fine dust motes float in the window light, the camera slowly pushes in across the fabric texture. Keep the hands, knit top, dresser and lighting exactly as in <Picture 1>. No face in frame. No on-screen text, no subtitles, no watermark."
+    },
+    {
+      "id": "s3",
+      "seed": 2026102803,
+      "keyframe": "键帧/C3.png",
+      "clip": "输出/C_s3.mp4",
+      "vo": "风还在吹，你却不再缩着肩膀。",
+      "keyframe_prompt": "Photorealistic cinematic still, 9:16 vertical. A slim young woman seen from behind walking briskly along an autumn city street lined with golden trees, her long wool coat open and billowing slightly, a fitted dark knit base-layer top visible underneath, warm low afternoon sun backlighting her hair and shoulders, golden leaves mid-fall in the air, confident relaxed posture, full body shot from behind, no face visible, cinematic depth, subtle film grain, no text",
+      "motion_prompt": "<Picture 1> shows a woman walking away along a golden autumn street, seen from behind. Timeline 0-5s: she walks toward the sunlit end of the street with a steady confident stride, her open coat sways gently with each step, golden leaves fall and drift past the camera, her hair moves lightly in the breeze, the camera follows smoothly from behind at the same pace. Keep her coat, the knit top underneath, hair and the golden street exactly as in <Picture 1>. No face visible. No on-screen text, no subtitles, no watermark."
+    }
+  ]
+}

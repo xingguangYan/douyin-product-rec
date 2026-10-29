@@ -1,0 +1,47 @@
+{
+  "id": "D",
+  "name": "商品短名",
+  "product_image": "输入参考图/D_product.png",
+  "price": "",
+  "recommend_line": "主题短句，就选它",
+  "cta": "点击下方小黄车",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "voice_rate": "+8%",
+  "end_voice_rate": "+25%",
+  "end_seconds": 3.6,
+  "end_vo": "音频/D_end.mp3",
+  "end_clip": "输出/D_end.mp4",
+  "end_seed": 2026102901,
+  "end_motion_prompt": "<Picture 1> shows the product against a clean studio backdrop. Timeline 0-5s: a gentle breeze sweeps across the fabric, the material ripples and flutters softly, soft light moves across the surface, the camera pushes in slowly. Keep the product's exact shape, color and texture exactly as in <Picture 1>. No on-screen text, no subtitles, no watermark.",
+  "output": "卖货视频_D_商品短名.mp4",
+  "negative": "text, watermark, logo, subtitles, letters, cartoon, anime, illustration, 3d render, lowres, blurry, deformed hands, extra fingers",
+  "shots": [
+    {
+      "id": "s1",
+      "seed": 2026102901,
+      "keyframe": "键帧/D1.png",
+      "clip": "输出/D_s1.mp4",
+      "vo": "第一句：场景钝感/痛点，讲故事不讲产品。",
+      "keyframe_prompt": "Photorealistic cinematic still, 9:16 vertical. <镜头一构图：不露脸的细节镜头>. no face, extremely shallow depth of field, subtle film grain, no text",
+      "motion_prompt": "<Picture 1> shows <镜头一内容>. Timeline 0-5s: <具体可见的动作>. Keep the ... exactly as in <Picture 1>. No face in frame. No on-screen text, no subtitles, no watermark."
+    },
+    {
+      "id": "s2",
+      "seed": 2026102902,
+      "keyframe": "键帧/D2.png",
+      "clip": "输出/D_s2.mp4",
+      "vo": "第二句：转折，产品以氛围方式介入（不露商品）。",
+      "keyframe_prompt": "Photorealistic cinematic still, 9:16 vertical. <镜头二构图>. no face, no text",
+      "motion_prompt": "<Picture 1> is <镜头二内容>. Timeline 0-5s: <动作>. Keep the ... exactly as in <Picture 1>. No face in frame. No on-screen text, no subtitles, no watermark."
+    },
+    {
+      "id": "s3",
+      "seed": 2026102903,
+      "keyframe": "键帧/D3.png",
+      "clip": "输出/D_s3.mp4",
+      "vo": "第三句：情绪落点，为商品露出铺垫。",
+      "keyframe_prompt": "Photorealistic cinematic still, 9:16 vertical. <镜头三构图：背影/环境>. no face visible, no text",
+      "motion_prompt": "<Picture 1> shows <镜头三内容>. Timeline 0-5s: <动作>. Keep the ... exactly as in <Picture 1>. No face visible. No on-screen text, no subtitles, no watermark."
+    }
+  ]
+}
