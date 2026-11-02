@@ -405,7 +405,31 @@ def assemble(spec, clip_paths, vo_paths, end_mode, end_src, end_card, end_ov, en
         "-map", f"{len(inputs)//2}:v", "-map", "[aout]",
         "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-ar", "44100",
         "-t", f"{total:.3f}", "-movflags", "+faststart", out_mp4])
+
+    srt_path = os.path.splitext(out_mp4)[0] + ".srt"
+    write_srt(spec, vo_paths, starts, os.path.join(ROOT, spec["end_vo"]), srt_path)
+    print(f"  字幕 -> {srt_path}")
     return total
+
+
+def write_srt(spec, vo_paths, starts, end_vo_path, srt_path):
+    """剧情台词延后 0.45s、结尾推荐语延后 0.12s，时长按实际发声结尾截取。"""
+
+    def ts(t):
+        ms = int(round(t * 1000))
+        h, ms = divmod(ms, 3600000); m, ms = divmod(ms, 60000); s, ms = divmod(ms, 1000)
+        return f"{h:02d}:{m:02d}:{s:02d},{ms:03d}"
+
+    rows = []
+    for i, shot in enumerate(spec["shots"]):
+        if i >= len(vo_paths) or i >= len(starts) - 1:
+            break
+        rows.append((starts[i] + 0.45, speech_end(vo_paths[i]), shot["vo"]))
+    rows.append((starts[-1] + 0.12, speech_end(end_vo_path),
+                 spec["recommend_line"] + "。" + spec.get("cta", "点击下方小黄车")))
+    with open(srt_path, "w", encoding="utf-8") as fh:
+        fh.write("\n".join(f"{i}\n{ts(t0)} --> {ts(t0 + dur)}\n{text}\n"
+                           for i, (t0, dur, text) in enumerate(rows, 1)))
 
 
 # ---------------------------------------------------------------- main

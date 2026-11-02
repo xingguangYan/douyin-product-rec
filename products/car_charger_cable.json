@@ -1,0 +1,65 @@
+{
+  "id": "D",
+  "name": "车载四合一伸缩线",
+  "product_image": "输入参考图/04_车载数据线.png",
+  "price": "",
+  "recommend_line": "路上不断电，就选它",
+  "cta": "点击下方小黄车",
+  "voice": "zh-CN-YunxiNeural",
+  "voice_rate": "+8%",
+  "end_voice_rate": "+25%",
+  "end_seconds": 3.6,
+  "end_vo": "音频/D_end.mp3",
+  "end_clip": "输出/D_end2.mp4",
+  "end_seed": 2026110207,
+  "end_motion_prompt": "<Picture 1> is a product photo of a four-in-one retractable spring car charger cable with multiple connector tips, shown against a dark charcoal studio backdrop. Timeline 0-5s: the coiled spring cable bounces and stretches energetically like a live spring, the coils wobble and flex, the connector tips swing and clink at the ends, the product rotates slowly under a moving spotlight while bright highlights roll continuously along the coiled wire, the camera pushes in slowly, premium product film look, lively dynamic mood. Keep the product's exact shape, color, connectors and texture exactly as in <Picture 1>. No on-screen text, no subtitles, no watermark.",
+  "output": "卖货视频_D_车载四合一伸缩线.mp4",
+  "negative": "text, watermark, logo, subtitles, letters, cartoon, anime, illustration, 3d render, lowres, blurry, deformed hands, extra fingers",
+  "shots": [
+    {
+      "id": "s1",
+      "seed": 2026110201,
+      "keyframe": "键帧/D1.png",
+      "clip": "输出/D_s1.mp4",
+      "vo": "凌晨两点的高速，雨越下越大。",
+      "keyframe_prompt": "Photorealistic cinematic still, 9:16 vertical. Close-up inside a car cabin at night during heavy rain, a man's hand gripping the steering wheel with tense whitened knuckles, dim amber dashboard glow, heavy rain streaking down the windshield with blurred headlight bokeh streaking past outside, claustrophobic tense mood, no face visible, extremely shallow depth of field, realistic skin texture, subtle film grain, no text",
+      "motion_prompt": "<Picture 1> shows a hand gripping a steering wheel inside a car in heavy night rain. Timeline 0-5s: rain streams hard down the windshield, a wiper blade sweeps across the glass once, the hand tightens on the steering wheel, headlights of passing cars sweep bright streaks across the window, the camera slowly pushes in toward the hand. Keep the hand, wheel, dashboard and lighting exactly as in <Picture 1>. No face in frame. No on-screen text, no subtitles, no watermark."
+    },
+    {
+      "id": "s2",
+      "seed": 2026110202,
+      "keyframe": "键帧/D2.png",
+      "clip": "输出/D_s2.mp4",
+      "vo": "手机黑了，导航也没了。",
+      "keyframe_prompt": "Photorealistic cinematic still, 9:16 vertical. Extreme close-up of a hand inside a dark car at night pressing the power button of a smartphone with a completely black dead screen, thumb pressing the side button, faint amber dashboard glow, rain droplets on the window blurred behind, anxious silent mood, no face visible, extremely shallow depth of field, realistic skin texture, subtle film grain, no text",
+      "motion_prompt": "<Picture 1> is an extreme close-up of a hand pressing a dead phone's power button in a dark car at night. Timeline 0-5s: the thumb presses the power button twice with growing frustration, the black screen stays completely dead, a single raindrop slides slowly down the window behind, the faint dashboard light flickers once, the camera slowly pushes in toward the dead screen. Keep the hand, phone, and lighting exactly as in <Picture 1>. No face in frame. No on-screen text, no subtitles, no watermark."
+    },
+    {
+      "id": "s3",
+      "seed": 2026110203,
+      "keyframe": "键帧/D3.png",
+      "clip": "输出/D_s3.mp4",
+      "vo": "我把车停在应急车道，只剩双闪。",
+      "keyframe_prompt": "Photorealistic cinematic still, 9:16 vertical. View from inside a car looking out through a rain-covered windshield at night, orange hazard warning lights glowing and reflecting on wet black asphalt, the car parked on the highway shoulder, red tail light streaks of passing cars bleeding through the rain, lonely cinematic atmosphere, no people visible, shallow depth of field, subtle film grain, no text",
+      "motion_prompt": "<Picture 1> shows the view from a parked car through a rain-covered windshield at night with orange hazard lights. Timeline 0-5s: the orange hazard lights pulse steadily, their reflections rippling on the wet asphalt, rain hammers the windshield, a large truck roars past and its red lights streak across the glass, the frame shudders slightly with the passing truck, the camera slowly pushes in through the rain. Keep the composition, lights and rainy mood exactly as in <Picture 1>. No on-screen text, no subtitles, no watermark."
+    },
+    {
+      "id": "s4",
+      "seed": 2026110204,
+      "keyframe": "键帧/D4.png",
+      "clip": "输出/D_s4.mp4",
+      "vo": "直到一束暖光，把黑夜撕开一道口子。",
+      "keyframe_prompt": "Photorealistic cinematic still, 9:16 vertical. Close-up of a man's hand plugging a sleek black retractable car charger cable into the car's center console charging port at night, a warm glow igniting around the connector tip, soft reflections on the dark plastic console, warmth cutting through darkness, no face visible, extremely shallow depth of field, realistic skin texture, subtle film grain, no text",
+      "motion_prompt": "<Picture 1> is a close-up of a hand plugging a car charger cable into the center console at night. Timeline 0-5s: the hand pushes the connector firmly into the port, a warm glow ignites at the tip and spreads softly over the console, tiny dust particles drift through the beam of light, the fingers relax their grip, the camera slowly pushes in toward the glowing connector. Keep the hand, cable, console and lighting exactly as in <Picture 1>. No face in frame. No on-screen text, no subtitles, no watermark."
+    },
+    {
+      "id": "s5",
+      "seed": 2026110205,
+      "keyframe": "键帧/D5.png",
+      "clip": "输出/D_s5.mp4",
+      "vo": "屏幕亮起来的那一刻，心就定了。",
+      "keyframe_prompt": "Photorealistic cinematic still, 9:16 vertical. Close-up of a hand holding a smartphone that has just lit up with a soft cool glow inside a dark car at night, the screen light washing over the wrist and fingers, rain streaks on the window catching the glow behind, relief and calm after tension, no face visible, extremely shallow depth of field, realistic skin texture, subtle film grain, no text",
+      "motion_prompt": "<Picture 1> shows a hand holding a phone that has just lit up inside a dark rainy car at night. Timeline 0-5s: the phone screen glows brighter and its light spreads across the hand and wrist, the grip of the fingers slowly relaxes, the light shifts gently as the hand lowers the phone slightly, rain keeps falling quietly outside, the camera slowly pushes in toward the glowing screen. Keep the hand, phone, light and rainy window exactly as in <Picture 1>. No face in frame. No on-screen text, no subtitles, no watermark."
+    }
+  ]
+}
