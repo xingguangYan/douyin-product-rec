@@ -41,7 +41,7 @@ CLIP_FRAMES = 124          # H3 单镜帧数 @24fps ≈ 5.17s
 
 # ComfyUI 模型文件名（可用同名环境变量覆盖，适配不同量化版本）
 MODELS = {
-    "t2i_unet": os.environ.get("DPR_T2I_UNET", "qwen-image-2.1-Q8_0.gguf"),
+    "t2i_unet": os.environ.get("DPR_T2I_UNET", "qwen-image-2.1-Q5_K_M.gguf"),
     "t2i_clip": os.environ.get("DPR_T2I_CLIP", "qwen3vl_8b_bf16.safetensors"),
     "t2i_vae": os.environ.get("DPR_T2I_VAE", "qwen_image_2.1_vae_bf16.safetensors"),
     "r2v_unet": os.environ.get("DPR_R2V_UNET", "minimax_h3_fl2va_pruned_int8_convrot.safetensors"),

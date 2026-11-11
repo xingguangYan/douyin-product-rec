@@ -17,6 +17,9 @@ import time
 import urllib.request
 
 COMFY = os.environ.get("COMFY_BASE", "http://127.0.0.1:8188")
+T2I_UNET = os.environ.get("DPR_T2I_UNET", "qwen-image-2.1-Q5_K_M.gguf")
+T2I_CLIP = os.environ.get("DPR_T2I_CLIP", "qwen3vl_8b_bf16.safetensors")
+T2I_VAE = os.environ.get("DPR_T2I_VAE", "qwen_image_2.1_vae_bf16.safetensors")
 
 
 def _post(url, body):
@@ -35,10 +38,10 @@ def _get_raw(url):
 
 def run_workflow(prompt, negative, width, height, seed):
     return {
-        "105": {"inputs": {"unet_name": "qwen-image-2.1-Q8_0.gguf"}, "class_type": "UnetLoaderGGUF"},
-        "106": {"inputs": {"clip_name": "qwen3vl_8b_bf16.safetensors", "type": "qwen_image",
+        "105": {"inputs": {"unet_name": T2I_UNET}, "class_type": "UnetLoaderGGUF"},
+        "106": {"inputs": {"clip_name": T2I_CLIP, "type": "qwen_image",
                            "device": "default"}, "class_type": "CLIPLoader"},
-        "103": {"inputs": {"vae_name": "qwen_image_2.1_vae_bf16.safetensors"}, "class_type": "VAELoader"},
+        "103": {"inputs": {"vae_name": T2I_VAE}, "class_type": "VAELoader"},
         "100": {"inputs": {"width": width, "height": height, "batch_size": 1}, "class_type": "EmptyLatentImage"},
         "102": {"inputs": {"clip": ["106", 0], "prompt": prompt, "negative_prompt": negative,
                            "resolution": max(width, height)}, "class_type": "TextEncodeQwenImage21"},

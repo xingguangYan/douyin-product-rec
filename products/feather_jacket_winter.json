@@ -1,0 +1,65 @@
+{
+  "id": "E",
+  "name": "亮面大毛领短款羽绒服",
+  "product_image": "输入参考图/05_羽绒服_clean.png",
+  "price": "",
+  "recommend_line": "冬日出门，就选它",
+  "cta": "点击下方小黄车",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "voice_rate": "+8%",
+  "end_voice_rate": "+25%",
+  "end_seconds": 3.8,
+  "end_vo": "音频/E_end.mp3",
+  "end_clip": "输出/E_end.mp4",
+  "end_seed": 2026111115,
+  "end_motion_prompt": "<Picture 1> is a clean studio product photo of a glossy black women's short puffer down jacket with a large natural fur-trimmed hood. Timeline 0-5s: the thick fur collar lifts and sways visibly in a soft breeze, the glossy black shell ripples with gentle air movement, the sleeves and hem billow and settle, silver snap buttons and fabric highlights catch a moving studio light, the camera makes a slow elegant arc around the jacket. Keep the jacket's exact short bread silhouette, glossy black fabric, oversized fur hood, buttons, pockets and proportions exactly as in <Picture 1>. No person in frame. No on-screen text, no subtitles, no watermark.",
+  "output": "卖货视频_E_亮面大毛领短款羽绒服.mp4",
+  "negative": "text, watermark, logo, subtitles, letters, cartoon, anime, illustration, 3d render, lowres, blurry, deformed hands, extra fingers",
+  "shots": [
+    {
+      "id": "s1",
+      "seed": 2026111111,
+      "keyframe": "键帧/E1.png",
+      "clip": "输出/E_s1.mp4",
+      "vo": "入冬的第一场风，比闹钟先到。",
+      "keyframe_prompt": "Photorealistic cinematic still, 9:16 vertical. Extreme close-up of a young woman's cold hands quickly wrapping a soft cream scarf around her neck on a windswept city sidewalk before sunrise, dark camel coat collar, tiny snow grains blowing through the cold blue air, warm shop lights deeply blurred behind, only hands scarf and lower neck visible, no face, realistic skin and wool texture, subtle film grain, no text",
+      "motion_prompt": "<Picture 1> shows a woman's hands hurriedly wrapping a cream scarf against the first winter wind before sunrise. Timeline 0-5s: her fingers pull the scarf tighter and tuck one loose end under the collar, the scarf tails whip and flutter strongly in the wind, tiny snow grains streak past, her shoulders shiver once, background shop lights shimmer softly, the camera pushes in toward her cold hands. Keep the hands, scarf, coat collar and lighting exactly as in <Picture 1>. No face in frame. No on-screen text, no subtitles, no watermark."
+    },
+    {
+      "id": "s2",
+      "seed": 2026111112,
+      "keyframe": "键帧/E2.png",
+      "clip": "输出/E_s2.mp4",
+      "vo": "她把围巾绕了两圈，还是被吹散。",
+      "keyframe_prompt": "Photorealistic cinematic still, 9:16 vertical. A slim young woman seen from behind waiting alone at a cold city street corner in early winter, dark camel wool coat and cream scarf, loose strands of dark hair blowing across her shoulders, dry leaves and light snow swirling around her shoes, cool blue morning light with a warm distant street lamp, full body from behind, no face visible, cinematic depth, subtle film grain, no text",
+      "motion_prompt": "<Picture 1> shows a woman from behind at a cold city corner, her scarf and hair moving in a strong winter gust. Timeline 0-5s: the long scarf tail lifts and snaps sideways in the wind, loose hair sweeps across her shoulders, dry leaves and fine snow race along the pavement, she lowers her chin and turns her body slightly away from the gust, the camera slowly circles behind her. Keep her camel coat, cream scarf, hair and the blue winter street exactly as in <Picture 1>. No face visible. No on-screen text, no subtitles, no watermark."
+    },
+    {
+      "id": "s3",
+      "seed": 2026111113,
+      "keyframe": "键帧/E3.png",
+      "clip": "输出/E_s3.mp4",
+      "vo": "公交站的玻璃上，起了一层白雾。",
+      "keyframe_prompt": "Photorealistic cinematic still, 9:16 vertical. Close-up of condensation slowly forming on the frosted glass panel of a city bus shelter in early winter, delicate droplets and icy patterns spreading across the glass, soft warm street lights and blurred pedestrians beyond, a woman's dark coat sleeve just entering the edge of frame, no face, shallow depth of field, cold blue morning with warm amber highlights, subtle film grain, no text",
+      "motion_prompt": "<Picture 1> is a close-up of frosted condensation spreading across a bus shelter glass panel in early winter. Timeline 0-5s: white mist blooms across the cold glass, fine water droplets grow and merge, a sleeve enters from the right edge, blurred amber street lights and pedestrians drift beyond the glass, the camera slowly glides along the surface. Keep the glass, condensation, blurred street and lighting exactly as in <Picture 1>. No face in frame. No on-screen text, no subtitles, no watermark."
+    },
+    {
+      "id": "s4",
+      "seed": 2026111114,
+      "keyframe": "键帧/E4.png",
+      "clip": "输出/E_s4.mp4",
+      "vo": "她伸手擦开一小块，看见街对面亮着灯。",
+      "keyframe_prompt": "Photorealistic cinematic still, 9:16 vertical. Close-up from behind a woman's hand wiping a small clear arc through misted bus shelter glass at dawn, revealing warm golden shop windows and falling snow across the street, her dark camel sleeve and cream scarf cuff visible at frame edge, no face, intimate hopeful mood, extremely shallow depth of field, realistic skin and glass texture, subtle film grain, no text",
+      "motion_prompt": "<Picture 1> shows a woman's hand wiping a clear arc through misted bus shelter glass at dawn. Timeline 0-5s: her fingertips drag slowly across the fog and leave a widening clear streak, warm golden shop windows and falling snow sharpen into view beyond the glass, droplets run down beside her hand, she pauses and rests her palm against the cold glass, the camera gently pushes through the cleared patch. Keep the hand, sleeve, scarf cuff, glass and warm lights exactly as in <Picture 1>. No face in frame. No on-screen text, no subtitles, no watermark."
+    },
+    {
+      "id": "s5",
+      "seed": 2026111116,
+      "keyframe": "键帧/E5.png",
+      "clip": "输出/E_s5.mp4",
+      "vo": "那天她走进人群，肩背终于松了下来。",
+      "keyframe_prompt": "Photorealistic cinematic still, 9:16 vertical. A young woman seen from behind stepping confidently into a softly lit winter city crowd at dawn, dark camel coat and cream scarf, relaxed shoulders, light snow drifting through warm street lamps and shop windows, pedestrians blurred ahead, full body from behind, no face visible, elegant cinematic atmosphere, subtle film grain, no text",
+      "motion_prompt": "<Picture 1> shows a woman from behind stepping confidently into a softly lit winter city crowd at dawn. Timeline 0-5s: her shoulders visibly relax and lift as she walks forward, her coat and scarf sway naturally with her stride, fine snow drifts through the warm lamp glow, blurred pedestrians part slightly as she enters the crowd, the camera follows smoothly behind her. Keep her coat, scarf, hair and the warm winter street exactly as in <Picture 1>. No face visible. No on-screen text, no subtitles, no watermark."
+    }
+  ]
+}
